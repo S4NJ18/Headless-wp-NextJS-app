@@ -76,11 +76,11 @@ const NavbarComponent = () => {
                 </div>
               ))}
 
-              <Link href={'https://s4nj18.github.io/my-portfolio/'} target="_blank"
+              <Link href={'https://github.com/S4NJ18/Headless-wp-NextJS-app'} target="_blank"
                 onClick={handleClose}
                 className="rounded px-6 py-3 flex gap-3 justify-center items-center bg-[#a53dff] w-full md:w-auto">
                 <p className="text-base leading-6 text-white font-semibold">
-                  My Portfolio
+                  Github Repo
                 </p>
               </Link>
             </div>
