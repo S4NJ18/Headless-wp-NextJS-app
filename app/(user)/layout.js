@@ -15,14 +15,36 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Wordpress Headless",
+    default: "Headless WordPress blog",
     template: "%s | Sanjib Mondal",
   },
   description:
-    "Wordpress Headless Developement on React.js, Next.js by Sanjib Mondal",
-  keywords: ["React", "Next.js", "Wordpress Headless", "Sanjib Mondal"],
+    "Headless WordPress Developement on React.js, Next.js by Sanjib Mondal",
+  keywords: ["React", "Next.js", "Headless Wordpress", "Sanjib Mondal"],
   icons: {
     icon: "../../public/vercel.svg",
+  },
+  openGraph: {
+    title: "Headless WordPress blog",
+    description: "Headless WordPress Developement on React.js, Next.js by Sanjib Mondal",
+    url: "",
+    siteName: "Headless WordPress Blog",
+    images: [
+      {
+        url: "../../public/Modern Headless WordPress Development Solutions.png",
+        width: 1200,
+        height: 630,
+        alt: "Headless WordPress blog",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Headless WordPress blog",
+    description: "Headless WordPress Developement on React.js, Next.js by Sanjib Mondal",
+    creator: "@thapatechnical",
+    images: ["../../public/Modern Headless WordPress Development Solutions.png"],
   },
 };
 
