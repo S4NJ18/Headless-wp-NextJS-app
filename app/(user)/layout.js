@@ -22,7 +22,7 @@ export const metadata = {
     "Headless WordPress Developement on React.js, Next.js by Sanjib Mondal",
   keywords: ["React", "Next.js", "Headless Wordpress", "Sanjib Mondal"],
   icons: {
-    icon: "../../public/vercel.svg",
+    icon: "/public/vercel.svg",
   },
   openGraph: {
     title: "Headless WordPress blog",
@@ -31,7 +31,7 @@ export const metadata = {
     siteName: "Headless WordPress Blog",
     images: [
       {
-        url: "../../public/Modern Headless WordPress Development Solutions.png",
+        url: "/public/Modern Headless WordPress Development Solutions.png",
         width: 1200,
         height: 630,
         alt: "Headless WordPress blog",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Headless WordPress blog",
     description: "Headless WordPress Developement on React.js, Next.js by Sanjib Mondal",
     creator: "@thapatechnical",
-    images: ["../../public/Modern Headless WordPress Development Solutions.png"],
+    images: ["/Modern Headless WordPress Development Solutions.png"],
   },
 };
 
